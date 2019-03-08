@@ -1,0 +1,60 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+#root, .App {
+  height:  inherit;
+}
+
+.container {
+  height:  inherit;
+  display: flex;
+}
+
+.menu {
+  flex: 30%;
+  padding: 20px;
+  background-color: #61dafb;
+}
+
+.menu button {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.text-upperase {
+   text-transform: uppercase;
+}
+
+.menu button:hover {
+  background: #2e6da4;
+}
+
+.menu a.active button {
+  background:rgb(9, 29, 49);
+}
+
+.chart {
+  flex: 70%;
+  padding: 20px;
+}

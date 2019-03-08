@@ -6,7 +6,7 @@ class Volume extends Component {
     render() {
         return (<div>
             <h3 className='text-upperase'> Showing Volume </h3>
-            <ReactEcharts option={getVolumeOptions()} lazyUpdate={true} />
+            <ReactEcharts option={getVolumeOptions()} />
         </div>);
     }
 }

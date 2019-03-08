@@ -9,7 +9,6 @@ import Volume from './components/volume';
 
 class App extends Component {
   render() {
-
     return (
       <Router>
         <div className='container'>
@@ -18,15 +17,9 @@ class App extends Component {
             <Route exact={true} path='/' render={() => (
               <h1>Please select a chart type to continue.</h1>
             )} />
-            <Route path='/chart/activity' render={({ match }) => (
-              <Activity />
-            )} />
-            <Route path='/chart/usage' render={({ match }) => (
-              <Usage />
-            )} />
-            <Route path='/chart/volume' render={({ match }) => (
-              <Volume />
-            )} />
+            <Route path='/chart/activity' component={Activity} />
+            <Route path='/chart/usage' component={Usage} />
+            <Route path='/chart/volume' component={Volume} />
           </div>
         </div>
       </Router>

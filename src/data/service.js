@@ -1,6 +1,10 @@
 import chartsData from './chartsData';
 import moment from 'moment';
 
+export function getChartTypes() {
+    return Object.keys(chartsData);
+}
+
 export function getActivityOptions() {
     let data = chartsData.activity;
 

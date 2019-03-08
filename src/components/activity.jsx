@@ -6,7 +6,7 @@ class Activity extends Component {
     render() {
         return (<div>
             <h3 className='text-upperase'> Showing Activity </h3>
-            <ReactEcharts option={getActivityOptions()} lazyUpdate={true} />
+            <ReactEcharts option={getActivityOptions()} />
         </div>);
     }
 }

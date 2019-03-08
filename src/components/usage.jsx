@@ -6,7 +6,7 @@ class Usage extends Component {
     render() {
         return (<div>
             <h3 className='text-upperase'> Showing Usage </h3>
-            <ReactEcharts option={getUsageOptions()} lazyUpdate={true} />
+            <ReactEcharts option={getUsageOptions()} />
         </div>);
     }
 }

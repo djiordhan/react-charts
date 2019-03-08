@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import ReactEcharts from 'echarts-for-react';
 import { getVolumeOptions } from '../data/service';
 
-let service = require('./../data/service');
-
 class Volume extends Component {
     render() {
         return (<div>
